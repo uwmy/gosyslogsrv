@@ -1,0 +1,6 @@
+export GO111MODULE=off
+export GOPATH=`pwd`
+
+#go get github.com/mattn/go-sqlite3
+
+#go build -ldflags "-linkmode external -extldflags '-static'" gosyslogsrv.go
